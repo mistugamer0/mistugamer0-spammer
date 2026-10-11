@@ -1,0 +1,8 @@
+-- Safe demo only
+local targetName = "TargetUser"
+local prefix = "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"  -- custom banner
+local suffix = "MEIN L4√D@"
+
+for i = 1, 10 do
+    print(prefix .. " " .. targetName .. " " .. suffix)
+end
